@@ -1,9 +1,13 @@
 body {
 
- background-image:"../images/background.jpg" ; 
-font-family: "Helvetica";
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Helvetica";
+  color:  #3E2723;
   font-size: 18px;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -47,8 +51,8 @@ padding-bottom: 40px;
 h1 {
     font-family: "Helvetica";
     font-size: 60px;
-    color:rgb(1, 0, 0);
-    text-align: center;
+    color: #2B1B0F;
+    text-align: left;
 }
 
 h2, h3 {
@@ -57,23 +61,38 @@ h2, h3 {
   color: saddlebrown;
 } 
 
+button {
+  background-color: saddlebrown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
 
 ul li  {
     font-family: "Helvetica";
-color: black;
+color: dark  #3E2723;
 font-size: 18px;
 }
 
 ol li {
-    color: black;
+    color:  #3E2723;
      font-family: Helvetica;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
     font-family: Helvetica;
     font-style: oblique;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 figcaption {
@@ -84,8 +103,8 @@ figcaption {
      text-align: right;
 }
 
-/*.rate {
-  padding: 35px 70px 50px;
-}*/
+.right-align {
+    text-align: right;
+} 
 
   
